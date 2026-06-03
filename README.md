@@ -63,9 +63,36 @@ Se implementaron 5 pruebas unitarias aplicando TDD:
 
 Para ejecutar las pruebas localmente:
 
+### Requisitos
+
+- PHP 8.0 o superior instalado
+- Composer instalado globalmente
+- Git
+
+### Pasos
+
 ```bash
+# 1. Clonar el repositorio
+git clone https://github.com/rengorssj/PARCIAL2.git
+cd PARCIAL2
+
+# 2. Instalar dependencias (PHPUnit 10)
 composer install
+
+# 3. Ejecutar las pruebas unitarias
 ./vendor/bin/phpunit tests
+```
+
+### Salida esperada
+
+```
+PHPUnit 10.x.x by Sebastian Bergmann and contributors.
+
+.....                                                               5 / 5 (100%)
+
+Time: 00:00.xxx, Memory: xx.xx MB
+
+OK (5 tests, 5 assertions)
 ```
 
 ---
