@@ -15,6 +15,6 @@ class Calculadora {
     }
 
     public function dividir($a, $b) {
-        return 0; 
+        return $a / $b;
     }
 }
