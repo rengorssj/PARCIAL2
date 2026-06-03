@@ -85,12 +85,13 @@ El workflow `php-ci.yml` se ejecuta automáticamente en cada push o PR a las ram
 
 | Run | Commit | Resultado |
 |---|---|---|
-| Run 1 | Archivos base (3 pruebas iniciales) | ✅ Verde |
-| Run 2 | Agregada prueba de división | ❌ Rojo |
-| Run 3 | Implementada función dividir | ✅ Verde |
-| Run 4 | Agregada prueba de división por cero | ❌ Rojo |
-| Run 5 | Manejada división por cero con excepción | ✅ Verde |
-| Run 6 | README con badge y URL | ✅ Verde |
-| Run 7 | Nombres de los integrantes | ✅ Verde |
+| Run 1 | [`f837c41`](https://github.com/rengorssj/PARCIAL2/commit/f837c41) — Archivos base (3 pruebas iniciales) | ✅ Verde |
+| Run 2 | [`37eb438`](https://github.com/rengorssj/PARCIAL2/commit/37eb438) — Agregada prueba de división | ❌ Rojo |
+| Run 3 | [`595d499`](https://github.com/rengorssj/PARCIAL2/commit/595d499) — Implementada función dividir | ✅ Verde |
+| Run 4 | [`344ba5e`](https://github.com/rengorssj/PARCIAL2/commit/344ba5e) — Agregada prueba de división por cero | ❌ Rojo |
+| Run 5 | [`d08d275`](https://github.com/rengorssj/PARCIAL2/commit/d08d275) — Manejada división por cero con excepción | ✅ Verde |
+| Run 6 | [`e5392fd`](https://github.com/rengorssj/PARCIAL2/commit/e5392fd) — README con badge y URL | ✅ Verde |
+| Run 7 | [`4f7eb42`](https://github.com/rengorssj/PARCIAL2/commit/4f7eb42) — Nombres de los integrantes | ✅ Verde |
+| Run 8 | [`bd8d941`](https://github.com/rengorssj/PARCIAL2/commit/bd8d941) — README mejorado con estructura y detalle | ✅ Verde |
 
 El flujo rojo → verde demuestra la aplicación correcta de TDD e Integración Continua.
