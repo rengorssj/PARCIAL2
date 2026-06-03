@@ -24,4 +24,9 @@ class CalculadoraTest extends TestCase {
     public function testDivision() {
         $this->assertEquals(2, $this->calc->dividir(6, 3));
     }
+
+    public function testDivisionPorCeroLanzaExcepcion() {
+        $this->expectException(\InvalidArgumentException::class);
+        $this->calc->dividir(5, 0);
+    }
 }
