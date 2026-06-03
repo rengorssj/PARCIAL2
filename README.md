@@ -10,4 +10,5 @@ https://github.com/rengorssj/PARCIAL2
 
 ## Integrantes
 
--
+- Juan Diego Holguin Perez
+- Alan Andres Silva Diaz
